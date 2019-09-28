@@ -264,12 +264,12 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  background: #22283A;
-  border: 1px solid #22283A;
-  border-radius: 10px;
   font-size: 1.8rem;
   width: 35%;
+  border: 1px solid #22283A;
+  border-radius: 10px;
   padding: 10px;
+  background: #22283A;
   text-align: center;
   color: #F6F6F6;
   transition: 1s;

@@ -78,12 +78,9 @@
       }
 
       .btn {
-        background: @btn-bg-color;
-        border: 1px solid @btn-bg-color;
-        border-radius: 10px;
         font-size: 1.8rem;
         width: 35%;
-        padding: 10px;
+        .btn-style(1px solid @btn-bg-color, 10px, 10px, @btn-bg-color);
         text-align: center;
         color: @wild-sand;
         transition: 1s;
