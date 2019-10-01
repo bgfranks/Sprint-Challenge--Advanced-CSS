@@ -1,1 +1,29 @@
 // Navigation code here
+.nav-container {
+  .flex(center, center, column);
+  background: @wild-sand;
+  padding: 10px 0;
+
+  .logo {
+    padding: 5px 0;
+    font-size: 4rem;
+    color: @shuttle-gray;
+  }
+
+  .navbar {
+    padding: 10px 0 5px;
+
+    a {
+      color: @shuttle-gray;
+      padding: 0 15px;
+      text-decoration: none;
+      font-size: 1.8rem;
+      transition: 1s;
+
+      &:hover {
+        color: @btn-bg-color;
+        font-size: 1.9rem;
+      }
+    }
+  }
+}
